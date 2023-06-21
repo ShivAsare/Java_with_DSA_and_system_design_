@@ -66,14 +66,40 @@
 //         }
 //     }
 // }/
+// class dsa1_timeSpaceComplexity{
+//     public static void main(String[] args) {
+//         int array[] ={1,1,1};
+
+//         int sum=0;
+//         for (int i = 0; i < array.length; i++) {
+//             sum+=array[i];
+//         }
+//         System.out.println(sum);
+//     }
+// }/
 class dsa1_timeSpaceComplexity{
     public static void main(String[] args) {
-        int array[] ={1,1,1};
-
-        int sum=0;
-        for (int i = 0; i < array.length; i++) {
-            sum+=array[i];
-        }
-        System.out.println(sum);
+       String[] name={"vinod ","rohit"};
+       for (String r:name) {
+        System.out.print(r+",");
+       }
+        
     }
 }
+// public class dsa1_timeSpaceComplexity {
+//     public static void main(String[] args) {
+//         String[] states = {
+//             "Delhi",
+//             "Chandigarh",
+//             "Pune"
+//         };
+//         // print elements to the console:
+//         for (int i = 0; i < states.length; i++)
+//             System.out.print(states[i] + ", ");
+        
+//         // printing using for-each loop
+//         for (String s: states) {
+//              System.out.print(s + ", ");
+//         }
+//     }
+// }
